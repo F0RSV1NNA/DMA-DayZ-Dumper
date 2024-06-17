@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Dep%27s">
+      <UniqueIdentifier>{3e6fb952-432f-4181-9eb4-0819826fd1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep%27s\DMALibrary">
+      <UniqueIdentifier>{1f630cda-bbb3-4c09-b8e1-558e4463fee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep%27s\DMALibrary\Dlls">
+      <UniqueIdentifier>{ef36cd26-3a24-498f-b3cb-a4f813120e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dep%27s\DMALibrary\Libs">
+      <UniqueIdentifier>{b2b01f56-bfe0-45cb-8c84-81f280fe4661}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DMALibrary\DMALibrary.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\pch.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\Memory\Registry.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\Memory\Shellcode.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\Memory\InputManager.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DMALibrary\Memory\Memory.cpp">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="OurProgram\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DMALibrary\libs\vmmdll.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\framework.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\libs\leechcore.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\Memory\Memory.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\pch.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\Memory\Registry.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\Memory\Shellcode.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DMALibrary\nt\structs.h">
+      <Filter>Dep%27s\DMALibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DMALibrary\libs\DMALibrary.lib">
+      <Filter>Dep%27s\DMALibrary\Libs</Filter>
+    </Library>
+    <Library Include="DMALibrary\libs\vmm.lib">
+      <Filter>Dep%27s\DMALibrary\Libs</Filter>
+    </Library>
+    <Library Include="DMALibrary\libs\leechcore.lib">
+      <Filter>Dep%27s\DMALibrary\Libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DMALibrary\dbghelp.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\FTD3XX.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\leechcore.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\vmm.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\symsrv.dll">
+      <Filter>Dep%27s\DMALibrary\Dlls</Filter>
+    </None>
+    <None Include="DMALibrary\libs\DMALibrary.pdb">
+      <Filter>Dep%27s\DMALibrary\Libs</Filter>
+    </None>
+    <None Include=".gitattributes">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\dbghelp.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\FTD3XX.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\leechcore.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\symsrv.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\vmm.dll">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="Compiled\info.db">
+      <Filter>Dep%27s</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Dep%27s</Filter>
+    </None>
+  </ItemGroup>
+</Project>
